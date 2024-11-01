@@ -1,0 +1,8 @@
+span.span, em{
+    border: 2px solid green;
+}
+
+span.span__oddNumbers {
+    background-color: #09f309;
+}
+

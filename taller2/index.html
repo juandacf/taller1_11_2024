@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <p>Los hijos 1,3,5,7 son seleccionados</p>
+    <span class="span span__oddNumbers">Span1!</span>
+    <span class="span">Span2</span>
+    <span class="span span__oddNumbers">Span3!</span>
+    <span class="span">Span4</span>
+    <span class="span span__oddNumbers">Span5!</span>
+    <span class="span">Span6</span>
+    <span class="span span__oddNumbers">Span7!</span><br><br>
+
+    <p>Los hijos 1,5 7 son seleccionados. <br> 3 se usa en el conteo porque es hijo, pero no se selecciona porque no es un span:</p>
+    <span class="span span__oddNumbers">Span1!</span>
+    <span class="span">Span2</span>
+    <em> Este es un 'em'</em>
+    <span class="span">Span4</span>
+    <span class="span span__oddNumbers">Span5!</span>
+    <span class="span">Span6</span>
+    <span class="span span__oddNumbers">Span7!</span><br><br>
+
+    <p> Los hijos 1,4,6 y 8 son seleccionados <br>  3 no se usa en el conteo ni se selecciona porque es un em, no es un span y la clase solo selecciona items de ese tipo. El em se omite por completo y se ignora:</p>
+
+    <span class="span">Span1!</span>
+    <span class="span span__oddNumbers">Span2</span>
+    <em> Este es un 'em'</em>
+    <span class="span span__oddNumbers">Span4</span>
+    <span class="span ">Span5!</span>
+    <span class="span span__oddNumbers">Span6</span>
+    <span class="span ">Span7!</span>
+    <span class="span span__oddNumbers">Span8!</span><br><br>
+</body>
+</html>
